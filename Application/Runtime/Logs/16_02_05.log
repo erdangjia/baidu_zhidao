@@ -1,0 +1,88 @@
+[ 2016-02-05T20:59:57+08:00 ] 175.172.94.107 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: keywords /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.015230s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454256000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000173s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454256000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454342400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000101s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454342400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454428800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000096s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454428800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454515200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000095s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454515200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454601600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000094s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454601600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2016-02-05T21:00:25+08:00 ] 175.172.94.107 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-02-05T21:00:32+08:00 ] 175.172.94.107 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: keywords /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.000574s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454256000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454256000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454342400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454342400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454428800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454428800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454515200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454515200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1454601600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1454601600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+

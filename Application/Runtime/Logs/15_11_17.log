@@ -1,0 +1,244 @@
+[ 2015-11-17T09:23:11+08:00 ] 122.67.116.34 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: blankArr /web/jquery/5/512/demo/Application/Home/Controller/IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /web/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: keywords /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.000510s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446307200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000496s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446307200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446393600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.001340s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446393600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446480000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000081s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446480000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446566400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446566400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446652800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446652800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446739200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446739200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446825600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446825600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446912000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000865s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446912000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446998400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000082s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446998400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447084800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447084800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447171200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447171200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447257600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447257600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447344000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000882s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447344000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447430400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000097s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447430400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447516800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447516800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447603200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447603200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.001595s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-11-17T09:23:14+08:00 ] 122.67.116.34 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-11-17T09:23:17+08:00 ] 122.67.116.34 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-11-17T16:58:51+08:00 ] 116.24.214.52 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: blankArr /web/jquery/5/512/demo/Application/Home/Controller/IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /web/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: keywords /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.000768s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446307200 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.015488s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446393600 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446480000 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446566400 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446652800 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446739200 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446825600 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446912000 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446998400 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447084800 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447171200 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447257600 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447344000 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447430400 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447516800 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447603200 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND status = 0 AND uid = 1211 ) LIMIT 1   [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-11-17T16:58:54+08:00 ] 116.24.214.52 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.000677s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND uid = 1211 AND status = 0 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: INSERT INTO `sign` (`addtime`,`uid`,`money`) VALUES (1447689600,1211,20) [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-11-17T17:46:31+08:00 ] 123.52.0.141 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: blankArr /web/jquery/5/512/demo/Application/Home/Controller/IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /web/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: keywords /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.000712s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446307200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000120s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446307200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446393600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000113s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446393600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446480000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446480000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446566400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446566400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446652800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446652800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446739200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446739200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446825600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446825600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446912000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446912000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1446998400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1446998400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447084800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447084800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447171200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447171200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447257600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447257600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447344000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447344000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447430400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447430400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447516800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447516800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447603200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000074s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447603200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1447689600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-11-17T17:46:32+08:00 ] 123.52.0.141 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-11-17T17:46:37+08:00 ] 123.52.0.141 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+

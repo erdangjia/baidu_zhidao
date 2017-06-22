@@ -1,0 +1,228 @@
+[ 2015-12-27T01:34:01+08:00 ] 101.28.165.15 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /web/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: keywords /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.001244s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1448899200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000132s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1448899200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1448985600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1448985600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449072000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449072000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449158400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000085s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449158400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449244800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449244800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449331200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449331200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449417600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449417600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449504000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000105s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449504000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449590400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000102s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449590400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449676800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000095s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449676800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449763200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000094s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449763200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449849600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449849600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449936000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449936000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450022400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450022400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450108800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450108800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450195200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450195200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450281600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450281600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450368000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450368000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450454400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450454400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450540800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000089s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450540800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450627200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000116s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450627200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450713600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450713600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450800000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450800000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450886400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450886400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450972800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450972800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1451059200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000101s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1451059200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1451145600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000074s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1451145600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2015-12-27T01:34:46+08:00 ] 101.28.165.15 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-12-27T16:54:37+08:00 ] 113.118.246.100 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /web/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: keywords /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /web/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /web/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.029469s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1448899200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1448899200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1448985600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000085s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1448985600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449072000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000099s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449072000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449158400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000095s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449158400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449244800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449244800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449331200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449331200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449417600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449417600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449504000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000074s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449504000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449590400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449590400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449676800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449676800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449763200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449763200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449849600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449849600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1449936000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1449936000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450022400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450022400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450108800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000074s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450108800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450195200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450195200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450281600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450281600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450368000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450368000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450454400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450454400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450540800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450540800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450627200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000071s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450627200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450713600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450713600 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450800000 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450800000 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450886400 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450886400 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1450972800 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1450972800 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1451059200 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1451059200 AND status = 0 AND uid =  ) LIMIT 1  
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1451145600 AND status = 0 AND uid =  ) LIMIT 1   [ RunTime:0.000072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `sign` WHERE ( addtime = 1451145600 AND status = 0 AND uid =  ) LIMIT 1  
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009651s ]
+
+[ 2015-12-27T16:54:40+08:00 ] 113.118.246.100 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+

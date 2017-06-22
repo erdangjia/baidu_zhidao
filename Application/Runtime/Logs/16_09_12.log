@@ -1,0 +1,52 @@
+[ 2016-09-12T14:03:28+08:00 ] 112.64.233.130 /jquery/5/512/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Member/right.html): failed to open stream: No such file or directory /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: keywords /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: description /data/www/jquery/5/512/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.012721s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1472659200 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.032095s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1472745600 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1472832000 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1472918400 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473004800 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473091200 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473177600 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473264000 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473350400 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473436800 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473523200 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473609600 AND status = 0 AND uid = 7773 ) LIMIT 1   [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2016-09-12T14:03:30+08:00 ] 112.64.233.130 /jquery/5/512/demo/Ajax/signDay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/www/jquery/5/512/demo/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.001160s ]
+SQL: SELECT `id` FROM `sign` WHERE ( addtime = 1473609600 AND uid = 7773 AND status = 0 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: INSERT INTO `sign` (`addtime`,`uid`,`money`) VALUES (1473609600,7773,20) [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
